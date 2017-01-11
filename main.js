@@ -106,7 +106,6 @@ window.onload = function() {
 
   }
   else{
-    console.log('this is Desktop');
     canvasDots();
   }
 };
