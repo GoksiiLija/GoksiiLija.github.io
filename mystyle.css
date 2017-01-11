@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #FFA17F, #00223E);
+}
+#nodes{
+    width: 100%;
+    height: 100%;
+}
+#console{
+    position: absolute;
+    top: 33.3%;
+    left: 10%;
+    
+    width: 80%;
+    height: 30%;
+    background-color: #232323;
+    border-radius: 10px 10px 2px 2px;
+    box-shadow: 0px 3px 7px #12181e;
+}
+.bar{
+    background-color: #191919;
+    width: 100%;
+    height: 36px;
+    border-radius: 10px 10px 0px 0px;
+}
+.textbody{
+    width: 100%;
+    height: calc(100% - 36px);
+    word-wrap: break-word;
+    color: #eeeeee;
+    font-size: 16px;
+}
+
+.btn{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 12px 3px 0px 3px;
+}
+.btnleft{
+    margin-left: 24px;
+    background-color: #f55551;
+}
+.btnmiddle{
+    background-color: #f6b73e;
+}
+.btnright{
+    background-color: #32c146;
+}
+
+.tbrow{
+    margin: 0px 0px 0px 10px;
+}
+.tbrowfirst{
+    margin-top: 10px;
+}
+
+.front{
+    display: inline-block;
+}
+.back{
+    margin-left: 15px;
+    display: inline-block;
+}
+.tbcursor{
+    width: 6px;
+    height: 16px;
+    margin-bottom: -3px;
+    opacity: 0.5;
+    display: inline-block;
+    border: 1px solid #eeeeee;
+}
