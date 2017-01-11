@@ -102,5 +102,11 @@ var canvasDots = function() {
 };
 
 window.onload = function() {
-  canvasDots();
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+
+  }
+  else{
+    console.log('this is Desktop');
+    canvasDots();
+  }
 };
